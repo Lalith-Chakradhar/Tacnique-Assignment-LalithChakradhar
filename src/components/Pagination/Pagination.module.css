@@ -1,0 +1,27 @@
+.navigationContainer {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigationContainer button {
+    height: 30px;
+    padding: 0 15px;
+    background-color: rgb(5, 5, 85);
+    color: white;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+
+.pageNumber {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(5, 5, 85);
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

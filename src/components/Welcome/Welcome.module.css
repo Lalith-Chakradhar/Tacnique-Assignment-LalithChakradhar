@@ -1,0 +1,13 @@
+ .welcomeTextContainer {
+    background: linear-gradient(to right, #5b68e4, #cccfe6);
+    height: calc(100vh - 8.8rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .welcomeText {
+        font-size: 6rem;
+        font-weight: 700;
+        font-style: italic;
+ }

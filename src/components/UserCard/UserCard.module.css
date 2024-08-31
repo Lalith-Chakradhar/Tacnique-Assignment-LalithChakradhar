@@ -1,0 +1,54 @@
+.cardContainer {
+    height: 18rem;
+    width: 16.5rem;
+    padding: 2rem;
+    padding-left: 2.1rem;
+    margin-bottom: 2rem;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    background: linear-gradient(to left, #1b28a5, #ffffff);
+}
+
+.cardContainerModifyMode{
+    height: fit-content;
+    width: 16.5rem;
+    padding: 2rem;
+    padding-left: 2.1rem;
+    margin-bottom: 2rem;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    background: linear-gradient(to left, #1b28a5, #ffffff);
+}
+
+ .cardWrapper h3 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 0.5rem;
+ }
+
+ .cardWrapper p {
+    margin: 1.5rem 0rem;
+ }
+
+
+ .userModifyButtonWrapper{
+    display: flex;
+    width: 14rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0.5rem;
+ }
+
+ .userModifyButtonWrapper button {
+    height: 2rem;
+    width: 5rem;
+    font-size: 1.05rem;
+    border: 1px solid black;
+    background: linear-gradient(to right, #c8c8c9, #ffffff);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+ }
+
+  
+
