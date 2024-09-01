@@ -58,7 +58,7 @@ This will create an optimized build of your app, ready for deployment in a produ
 There was an issue with props drilling in the components. This was a challenge as it made the components unnecessarily heavy and harder to maintain. The issue was mitigated by:
 
 - Using the `useContext` hook to manage global state and pass data more efficiently between components.
-- Maintaining a separate file UserContext.js to handle API calls for fetching users, adding a user, editing a user, and deleting a user.
+- Maintaining a separate file `UserContext.js` to handle API calls for fetching users, adding a user, editing a user, and deleting a user.
 
 This approach streamlined data access across components, eliminating the need for excessive prop passing and making the app more modular and maintainable.
 
