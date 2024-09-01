@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Setup and Run Instructions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Follow these steps to set up and run the application on your local machine:
 
-## Available Scripts
+### 1. Clone the Repository
+Choose the directory on your computer where you want to place the app. Then, open VS Code and clone the repository.
 
-In the project directory, you can run:
+```bash
+git clone https://github.com/Lalith-Chakradhar/Tacnique-Assignment-LalithChakradhar.git
+cd Tacnique-Assignment-LalithChakradhar
+```
 
-### `npm start`
+### 2. Install Create React App, NPX, and NPM
+Ensure you have create-react-app, npx, and npm installed.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+npm install -g npm
+npm install -g create-react-app
+npm install -g npx
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3. Create a New React App
+Open a terminal in VS Code and create a new React app.
 
-### `npm test`
+```bash
+npx create-react-app your-app-name
+cd your-app-name
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 4. Replace Files
+Copy and add/replace the following files from the downloaded GitHub repository into the newly created app folder:
 
-### `npm run build`
+`src/components/`
+`src/index.js`
+`src/index.css`
+`src/app.js`
+`src/app.css`
+`src/UserContext.js`
+`package.json`
+`package-lock.json`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 5. Install Dependencies
+In the terminal, navigate to your app directory and install all the necessary dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 6. Start the Application
+After installing all dependencies, start the application.
 
-### `npm run eject`
+```bash
+npm start
+```
+The app will start and continue running. It will be displayed in your default browser with a localhost URL.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 7. Stop the Application
+To stop the application, open another terminal with the path set to the current directory where your app folder is located. Press Ctrl + C, then press Y to stop the batch job.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+Ctrl + C
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 8. Build the Application
+If you want to deploy the app, you should first build it.
 
-## Learn More
+```bash
+npm run build
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This will create an optimized build of your app, ready for deployment in a production environment.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
